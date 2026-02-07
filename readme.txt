@@ -1,5 +1,4 @@
-add a new user 
-https://www.digitalocean.com/community/tutorials/how-to-create-a-new-sudo-enabled-user-on-ubuntu-20-04-quickstart
+Add a new user - configure the user to your project settings
 
 apt-get update -y; apt-get upgrade -y
 apt-get install python3.8
@@ -10,4 +9,5 @@ python -m venv VM1
 source VM1/bin/activate
 sudo chmod 777 * -R 
 sudo chown -R www-data:www-data /home/stalin/VM1
+
 <~ Install all the packged need your for your django project ~>
